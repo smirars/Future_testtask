@@ -9,7 +9,6 @@ export const RepoCard = ({ name, description, html_url, stargazers_count, update
     day: "numeric",
   });
 
-  // Если описание отсутствует, показываем текст "Описание отсутствует"
   const repoDescription = description || "Описание отсутствует";
 
   return (
